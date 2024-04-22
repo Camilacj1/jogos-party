@@ -1,0 +1,69 @@
+body {
+    background: url(imagem.jpeg);
+    margin: 50px;
+    padding: 15px 0;
+    font-family: "Exo 2";
+}
+
+.titulo-principal {
+    color: aliceblue;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-shadow: 12px 12px 12px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.container__botao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botao {
+    padding: 30px 40px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 3.5em;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(131, 131, 131);
+    box-shadow: 12px 12px 12px rgb(58, 58, 58);
+}
+
+.container__botao :hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.texto {
+    color: white;
+    font-size: 15px;
+    font-family: "Exo 2";
+}
+
+.imagem {
+    width: 180px;
+    margin: 40px;
+    border-radius:100px;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+    filter: blur(2px);
+}
+
+.imagem:hover,
+.imagem:focus {
+  transform: translateX(10px) scale(1.2);
+  filter: none;
+  box-shadow: 5px 5px 10px rgb(167, 167, 167);
+}
+
+
+
+
+
