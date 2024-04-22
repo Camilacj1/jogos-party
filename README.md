@@ -1,1 +1,3 @@
 # jogos-party
+
+*FEITO PARA TRABALHO ESCOLAR*
